@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Navigation Controller のインスタンス
         let navigationController = UINavigationController(rootViewController: firstView)
 
-//        window = UIWindow(frame: UIScreen.main.bounds)
+        window = UIWindow(frame: UIScreen.main.bounds)
 
         // set NavigationController to root View
         self.window?.rootViewController = navigationController

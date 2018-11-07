@@ -27,10 +27,8 @@ class FirstViewController: UIViewController {
     func transScreenButton()  {
         let button_1 = UIButton(frame: CGRect(x: self.view.frame.width / 2 - 200 / 2, y: self.view.frame.height / 2 - 150 / 2, width: 200, height: 50))
 
-        button_1.setTitle("Screen Transition Button", for: .normal)
-
-        // ボタンに丸みをつける。角を曲げる
-        button_1.layer.cornerRadius = 20.0
+        button_1.setTitle("Screen Transition Button", for: .normal) // set Texit in Button
+        button_1.layer.cornerRadius = 20.0 // ボタンに丸みをつける。角を曲げる
         button_1.backgroundColor = .orange
         button_1.addTarget(self, action: #selector(transitionSecondSceneButton), for: .touchUpInside)
 
